@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eaf5ff">
+  <meta name="description" content="Una pequeña sorpresa hecha con cariño.">
+  <title>Una pregunta para ti</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <div class="topline"><span class="tiny-star" aria-hidden="true">✳</span> UNA PREGUNTA IMPORTANTE</div>
+
+    <section class="question-view" id="questionView" aria-labelledby="questionTitle">
+      <div class="question-copy">
+        <p class="eyebrow">Para la persona que más quiero</p>
+        <h1 id="questionTitle">¿Me <em>amas?</em></h1>
+        <p class="intro">Responde con el corazón. Aunque creo que ya sé la respuesta.</p>
+      </div>
+      <div class="answer-area">
+        <button class="button button-yes" id="yesButton" type="button">Sí, muchísimo <span aria-hidden="true">♥</span></button>
+        <button class="button button-no" id="noButton" type="button">No</button>
+      </div>
+      <p class="answer-note" id="answerNote" aria-live="polite">Pista: hay una respuesta correcta ♡</p>
+      <span class="orbit orbit-one" aria-hidden="true">♡</span>
+      <span class="orbit orbit-two" aria-hidden="true">✦</span>
+    </section>
+
+    <section class="letter-view" id="letterView" aria-labelledby="letterTitle" hidden>
+      <div class="letter-heading">
+        <p class="eyebrow">Sabía que dirías que sí</p>
+        <h2 id="letterTitle">Un rinconcito <em>para nosotros</em></h2>
+        <p class="intro">Un rinconcito para guardar algo nuestro.</p>
+      </div>
+      <div class="letter-layout">
+        <iframe data-testid="embed-iframe" title="I Really Want to Stay at Your House, Rosa Walton en Spotify" style="border-radius:12px" src="https://open.spotify.com/embed/track/7mykoq6R3BArsSpNDjFQTm?utm_source=generator&amp;si=432689d24dfd4157" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <div class="letter-paper">
+          <span class="paper-label">Mi carta para ti</span>
+          <div class="letter-content" id="letterText">Quería escribirte esto porque a veces siento que cuando intento decirte las cosas en persona no me salen exactamente como las siento.
+
+No sé muy bien cómo explicar todo lo que me pasa con vos, pero sé que desde que llegaste a mi vida hay muchas cosas que se sienten un poquito más lindas. Me encanta compartir mi tiempo con vos, hablar de cualquier cosa, reírnos juntos y hasta esos momentos simples en los que no hacemos nada especial. Me gusta tenerte cerca y poder compartir pequeños pedacitos de mi vida con vos.
+
+Me importás muchísimo. Me gusta compartir mi tiempo con vos, hacer planes, reírnos, hablar de cualquier cosa y hasta esos momentos simples en los que simplemente estamos juntos sin hacer nada especial. Hay algo en vos que hace que quiera seguir conociéndote y descubrir qué puede llegar a ser esto entre nosotros.
+
+También quiero que sepas que valoro muchísimo cada momento que compartimos. Quizás algunas cosas para vos parezcan pequeñas, pero para mí significan mucho: un abrazo, una mirada, una conversación, una noche juntos, alguna tontería que nos haga reír. Son esas pequeñas cosas las que hacen que cada vez te tenga más cariño.
+
+No quiero intentar encontrar las palabras perfectas porque creo que lo más importante es que sepas que te quiero muchísimo y que me hace feliz tenerte en mi vida.
+
+No sé qué nos depare el futuro ni quiero apurar nada. Solo sé que me gusta lo que tenemos, me gusta estar con vos y me gustaría seguir creando recuerdos juntos, seguir conociéndonos y ver hasta dónde nos puede llevar todo esto.
+
+Gracias por ser vos, por cada momento que compartimos y por hacerme sentir tantas cosas bonitas.
+
+Te quiero muchísimo, popo.</div>
+  </div>
+        <div class="photo-column">
+          <div class="photo-frame" id="photoFrame">
+            <img id="photoPreview" src="https://i.imgur.com/gcUeQqt.jpeg" alt="Foto especial">
+            <div class="photo-placeholder" id="photoPlaceholder" hidden>
+              <span class="photo-icon" aria-hidden="true">♡</span>
+              <span>Nuestra foto favorita</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="back-button" id="backButton" type="button"><span aria-hidden="true">←</span> Volver a la pregunta</button>
+    </section>
+
+    <footer class="page-footer"><span>hecho con cariño</span><span aria-hidden="true">♡</span></footer>
+  </main>
+</body>
+</html>
